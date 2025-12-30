@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="title" for="node" attr.name="title" attr.type="string"/>
+  <key id="year" for="node" attr.name="year" attr.type="int"/>
+  <key id="category" for="node" attr.name="category" attr.type="string"/>
+  <graph id="citation_graph" edgedefault="directed">
+    <node id="2306.16208v4">
+      <data key="title">Continuous-time q-learning for mean-field control problems</data>
+      <data key="year">2023</data>
+    </node>
+    <node id="2510.04569v1">
+      <data key="title">Risk-Sensitive Option Market Making with Arbitrage-Free eSSVI Surfaces: A Constrained RL and Stochastic Control Bridge</data>
+      <data key="year">2025</data>
+    </node>
+    <node id="1805.07478v1">
+      <data key="title">Algorithmic Trading with Fitted Q Iteration and Heston Model</data>
+      <data key="year">2018</data>
+    </node>
+    <node id="1812.06600v2">
+      <data key="title">Double Deep Q-Learning for Optimal Execution</data>
+      <data key="year">2018</data>
+    </node>
+    <node id="2005.10130v2">
+      <data key="title">Finite Mixture Approximation of CARMA(p,q) Models</data>
+      <data key="year">2020</data>
+    </node>
+    <node id="1801.06077v1">
+      <data key="title">The QLBS Q-Learner Goes NuQLear: Fitted Q Iteration, Inverse RL, and Option Portfolios</data>
+      <data key="year">2018</data>
+    </node>
+    <node id="1712.04609v3">
+      <data key="title">QLBS: Q-Learner in the Black-Scholes(-Merton) Worlds</data>
+      <data key="year">2017</data>
+    </node>
+    <node id="2311.05743v1">
+      <data key="title">Advancing Algorithmic Trading: A Multi-Technique Enhancement of Deep Q-Network Models</data>
+      <data key="year">2023</data>
+    </node>
+    <node id="2207.00713v4">
+      <data key="title">q-Learning in Continuous Time</data>
+      <data key="year">2022</data>
+    </node>
+    <node id="2303.08615v2">
+      <data key="title">Characteristic Function of the Tsallis $q$-Gaussian and Its Applications in Measurement and Metrology</data>
+      <data key="year">2023</data>
+    </node>
+  </graph>
+</graphml>

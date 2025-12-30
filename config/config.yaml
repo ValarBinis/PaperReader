@@ -1,0 +1,85 @@
+# AI Paper Reader 配置文件
+
+# LLM API 配置
+# 注意：以下配置可通过环境变量覆盖
+# 优先级：环境变量 > config.yaml
+# 环境变量：LLM_API_KEY, LLM_BASE_URL, LLM_MODEL
+llm:
+  # API密钥 (可直接填写，或通过 LLM_API_KEY 环境变量覆盖)
+  api_key: "cr_8406dba9da6e232b4603a034f8459526aa3b7d686a1f5dbc8c3612fcf5c8bc93"
+  # API地址 (可通过 LLM_BASE_URL 环境变量覆盖)
+  # DeepSeek: https://api.deepseek.com
+  # 智谱AI: https://open.bigmodel.cn/api/paas/v4
+  # 通义千问: https://dashscope.aliyuncs.com/compatible-mode/v1
+  base_url: "http://81.70.247.162:13999/api"
+  # 模型名称 (可通过 LLM_MODEL 环境变量覆盖)
+  model: "glm-4.7"
+  # 温度参数 (0-1)
+  temperature: 0.3
+  # 最大token数
+  max_tokens: 4000
+  # 超时时间(秒)
+  timeout: 60
+
+# 论文搜索配置
+search:
+  # 默认最大结果数
+  max_results: 10
+  # 数据源 (arxiv, scihub)
+  sources:
+    - arxiv
+  # 排序方式: relevance(相关性), date(日期), citation_count(引用数)
+  sort_by: "relevance"
+  # arXiv分类 (可选)
+  categories:
+    - cs.AI
+    - cs.LG
+    - cs.CL
+    - cs.CV
+  # 时间过滤 (最近N天, 0表示不限)
+  days_ago: 7
+
+# Sci-Hub配置
+# 注意：Sci-Hub可能涉及版权问题，请确保符合当地法律法规
+scihub:
+  # 是否启用Sci-Hub
+  enabled: true
+  # Sci-Hub基础URL (留空则自动检测可用域名)
+  base_url: ""
+  # 请求超时(秒)
+  timeout: 60
+  # 最大重试次数
+  max_retries: 3
+
+# PDF下载配置
+pdf:
+  # 下载超时(秒)
+  download_timeout: 120
+  # 最大重试次数
+  max_retries: 3
+  # 是否保留PDF文件
+  keep_pdfs: true
+
+# 分析配置
+analysis:
+  # 是否分析全文 (false则只分析摘要)
+  analyze_full_text: true
+  # 最大分析页数 (0表示不限)
+  max_pages: 0
+  # 是否提取创新点
+  extract_contributions: true
+  # 是否生成分类
+  classify_paper: true
+
+# 输出配置
+output:
+  # PDF存储目录
+  papers_dir: "./data/papers"
+  # 缓存目录
+  cache_dir: "./data/cache"
+  # 索引文件路径
+  index_file: "./output/papers_index.md"
+  # 是否包含完整摘要
+  include_full_summary: true
+  # 是否分章节输出
+  include_sections: false

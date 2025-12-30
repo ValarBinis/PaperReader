@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="title" for="node" attr.name="title" attr.type="string"/>
+  <key id="year" for="node" attr.name="year" attr.type="int"/>
+  <key id="category" for="node" attr.name="category" attr.type="string"/>
+  <graph id="citation_graph" edgedefault="directed">
+    <node id="1902.10948v1">
+      <data key="title">Global Stock Market Prediction Based on Stock Chart Images Using Deep Q-Network</data>
+      <data key="year">2019</data>
+    </node>
+    <node id="2507.01983v1">
+      <data key="title">Comparing Bitcoin and Ethereum tail behavior via Q-Q analysis of cryptocurrency returns</data>
+      <data key="year">2025</data>
+    </node>
+    <node id="2208.02659v3">
+      <data key="title">A Hawkes model with CARMA(p,q) intensity</data>
+      <data key="year">2022</data>
+    </node>
+    <node id="1705.01406v2">
+      <data key="title">The q-dependent detrended cross-correlation analysis of stock market</data>
+      <data key="year">2017</data>
+    </node>
+    <node id="1902.10500v1">
+      <data key="title">Q-Gaussian diffusion in stock markets</data>
+      <data key="year">2019</data>
+    </node>
+    <node id="2306.16208v4">
+      <data key="title">Continuous-time q-learning for mean-field control problems</data>
+      <data key="year">2023</data>
+    </node>
+    <node id="2510.04569v1">
+      <data key="title">Risk-Sensitive Option Market Making with Arbitrage-Free eSSVI Surfaces: A Constrained RL and Stochastic Control Bridge</data>
+      <data key="year">2025</data>
+    </node>
+    <node id="1805.07478v1">
+      <data key="title">Algorithmic Trading with Fitted Q Iteration and Heston Model</data>
+      <data key="year">2018</data>
+    </node>
+    <node id="1812.06600v2">
+      <data key="title">Double Deep Q-Learning for Optimal Execution</data>
+      <data key="year">2018</data>
+    </node>
+    <node id="2005.10130v2">
+      <data key="title">Finite Mixture Approximation of CARMA(p,q) Models</data>
+      <data key="year">2020</data>
+    </node>
+  </graph>
+</graphml>

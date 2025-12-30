@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="title" for="node" attr.name="title" attr.type="string"/>
+  <key id="year" for="node" attr.name="year" attr.type="int"/>
+  <key id="category" for="node" attr.name="category" attr.type="string"/>
+  <graph id="citation_graph" edgedefault="directed">
+    <node id="1907.03178v4">
+      <data key="title">XGBoostLSS -- An extension of XGBoost to probabilistic forecasting</data>
+      <data key="year">2019</data>
+    </node>
+    <node id="2407.09950v2">
+      <data key="title">PSO Fuzzy XGBoost Classifier Boosted with Neural Gas Features on EEG Signals in Emotion Recognition</data>
+      <data key="year">2024</data>
+    </node>
+    <node id="2112.01566v1">
+      <data key="title">Theoretical Analysis of an XGBoost Framework for Product Cannibalization</data>
+      <data key="year">2021</data>
+    </node>
+    <node id="1911.01914v1">
+      <data key="title">A Comparative Analysis of XGBoost</data>
+      <data key="year">2019</data>
+    </node>
+    <node id="2109.07473v2">
+      <data key="title">Generalized XGBoost Method</data>
+      <data key="year">2021</data>
+    </node>
+  </graph>
+</graphml>

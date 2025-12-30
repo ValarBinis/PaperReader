@@ -1,0 +1,37 @@
+# AI Paper Reader 依赖清单
+
+# 论文搜索
+arxiv==2.1.0
+feedparser==6.0.10
+
+# PDF处理
+PyMuPDF==1.23.26
+
+# LLM API
+openai>=1.0.0
+
+# HTTP请求
+requests>=2.31.0
+
+# 配置文件
+PyYAML>=6.0
+
+# CLI界面
+prompt-toolkit>=3.0.43
+rich>=13.7.0
+
+# 环境变量
+python-dotenv>=1.0.0
+
+# 重试机制
+tenacity>=8.2.3
+
+# 进度条
+tqdm>=4.66.1
+
+# 日期处理
+python-dateutil>=2.8.2
+
+# HTML解析 (用于Sci-Hub)
+beautifulsoup4>=4.9.0
+lxml>=4.6.0

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+    http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="title" for="node" attr.name="title" attr.type="string"/>
+  <key id="year" for="node" attr.name="year" attr.type="int"/>
+  <key id="category" for="node" attr.name="category" attr.type="string"/>
+  <graph id="citation_graph" edgedefault="directed">
+    <node id="2212.12687v2">
+      <data key="title">Measuring price impact and information content of trades in a time-varying setting</data>
+      <data key="year">2022</data>
+    </node>
+    <node id="2506.08718v1">
+      <data key="title">Price Discovery in Cryptocurrency Markets</data>
+      <data key="year">2025</data>
+    </node>
+  </graph>
+</graphml>

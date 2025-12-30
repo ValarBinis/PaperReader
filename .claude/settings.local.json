@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github-search__search_github_repos",
+      "mcp__github-search__get_github_repo_info",
+      "mcp__deepwiki__ask_question",
+      "mcp__deepwiki__read_wiki_structure",
+      "mcp__fetch__fetch",
+      "mcp__github-search__search_pypi_packages",
+      "WebSearch"
+    ]
+  }
+}
