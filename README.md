@@ -42,7 +42,7 @@ cd PaperReader
 # 2. 创建虚拟环境（推荐）
 python -m venv venv
 
-# 激���虚拟环境
+# 激活虚拟环境
 # Windows:
 venv\Scripts\activate
 或直接使用 uv 前置替代Python命令
